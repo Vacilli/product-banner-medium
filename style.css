@@ -1,0 +1,265 @@
+@charset "UTF-8";
+body,
+html {
+    height: 250px;
+    margin: 0;
+    padding: 0;
+    width: 970px;
+}
+
+#container {
+    background: #c4ca15;
+    height: 250px;
+    width: 970px;
+    z-index: 1;
+}
+
+.banner {
+    opacity: 1;
+    height: 248px;
+    width: 968px;
+    border: 1px solid #000;
+    background: #c4ca15;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.positionAb {
+    position: absolute;
+}
+
+
+
+#clickTag {
+    background: url(images/clickTag.png);
+    height: 250px;
+    width: 970px;
+    z-index: 80;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+}
+
+
+#loader-container {
+    display: none;
+}
+
+
+/*////////////////////////////////////////////////*/
+
+#logo {
+    top: 69px;
+    left: 713px;
+    opacity: 0;
+    display: block;
+    background: url(images/logo.png);
+	width: 225px;
+	height:90px;
+    background-repeat: no-repeat;
+}
+
+
+/*////////////////////////////////////////////////*/
+
+#cta {
+    bottom: 15px;
+    right: 65px;
+    opacity: 0;
+    display: block;
+    background: url(images/cta.png);
+	width: 150px;
+	height:35px;
+	
+	
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+/*////////////////////////////////////////////////*/
+
+#newLabel {
+    left: 655px;
+    top: 3px;
+    opacity: 0;
+    display: block;
+    background: url(images/newLabel.png);
+	width: 88px;
+	height:65px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#mainAnimation {
+    width: 970px;
+    height: 250px;
+    top: 0px;
+    right: 0px;
+    perspective: 600;
+}
+
+#samples {
+     left: 530px;
+    top: 73px;
+    opacity: 0;
+    display: block;
+    background: url(images/meatloafSamples.png);
+	width: 138px;
+	height:131px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#bagPurple {
+    left: 392px;
+    top: 30px;
+    opacity: 0;
+    display: block;
+    background: url(images/bagPurple.png);
+	width: 228px;
+	height:229px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+#bagBlue {
+     left: 331px;
+    top: 25px;
+    opacity: 0;
+    display: block;
+    background: url(images/bagBlue.png);
+	width: 160px;
+	height:226px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#bagGreen {
+    left: 440px;
+    top: 37px;
+    opacity: 0;
+    display: block;
+    background: url(images/bagGreen.png);
+	width: 161px;
+	height:223px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#bagYellow {
+    left: 220px;
+    top: 38px;
+    opacity: 0;
+    display: block;
+    background: url(images/bagYellow.png);
+	width: 159px;
+	height:222px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#bagRed {
+    left: 114px;
+    top: 26px;
+    opacity: 0;
+    display: block;
+    background: url(images/bagRed.png);
+	width: 158px;
+	height:224px;
+
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.meatLoop {
+    left: -120px;
+    top: -50px;
+    /*    opacity: 0;*/
+    display: block;
+}
+
+#meatLoopA {
+    background: url(images/meat01.png);
+	width: 111px;
+	height:111px;
+    width: 92px;
+    height: 92px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#meatLoopB {
+    background: url(images/meat02.png);
+	width: 110px;
+	height:109px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#colorShade {
+    left: 1px;
+    top: -3px;
+    opacity: 0;
+    display: block;
+    background: url(images/colorShade.png);
+	width: 521px;
+	height:123px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#f1_text {
+    left: 698px;
+    top: 48px;
+    opacity: 0;
+    display: block;
+    background: url(images/f1_text.png);
+	width: 257px;
+	height:137px;
+
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#f2_text {
+    left: 719px;
+    top: 43px;
+    opacity: 0;
+    display: block;
+    background: url(images/f2_text.png);
+	width: 212px;
+	height:128px;
+
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#f3_text {
+    left: 686px;
+    top: 45px;
+    opacity: 0;
+    display: block;
+    background: url(images/f3_text.png);
+	width: 264px;
+	height:118px;
+
+
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#f4_text {
+    left: 26px;
+    top: 62px;
+    opacity: 0;
+    display: block;
+    background: url(images/f4_text.png);
+	width: 134px;
+	height:160px;
+
+    background-repeat: no-repeat;
+    background-position: center;
+}
